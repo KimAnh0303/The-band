@@ -1,0 +1,69 @@
+/* Mobie */
+
+@media (max-width: 740px) {
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-button {
+        display: none;
+    }
+    #content .members-items {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    .s-col-full,
+    .s-full {
+        width: 100% !important
+    }
+    .contact-input {
+        margin-top: 32px;
+    }
+    .contact-send {
+        margin-top: 16px;
+        padding: 16px;
+    }
+    .icon-footer i {
+        padding: 10px;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px)and (max-width:1023px) {
+    #header .search-menu {
+        display: none;
+    }
+    .contact-info i {
+        line-height: 1.7;
+    }
+}
+
+@media (min-width:1024px) {
+    #header .search-menu {
+        display: none;
+    }
+}
