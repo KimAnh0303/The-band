@@ -44,6 +44,8 @@
     .contact-send {
         margin-top: 16px;
         padding: 22px;
+        appearance: none;
+        -webkit-appearance: none;
     }
     .icon-footer i {
         padding: 10px;
